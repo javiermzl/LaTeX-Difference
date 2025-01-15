@@ -7,3 +7,6 @@ cd ..
 
 latexdiff old/old.tex new/new.tex > diff.tex
 mv diff.tex new/
+
+echo '' > new/new.tex
+echo '' > old/old.tex
